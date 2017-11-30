@@ -1,0 +1,179 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+	padding: 25px;
+}
+
+.container {
+	display: flex;
+}
+
+.recipe-container {
+	flex: 1;
+	background-color:  #ecedd0;
+	background-height: 350px;
+	display:inline-block;
+	border: 10px solid white;
+	padding: 5px;
+	
+}
+
+img.rating {
+	width: 40%;
+}
+
+img.tile-rating {
+	width: 60%;
+}
+img.profile {
+	width: 85%;
+}
+
+img.tile-profile {
+	width: 100%;
+}
+
+table.tile {
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+
+tr.shaded {
+	background-color: #e1dde6;
+}
+
+tr.shaded > th {
+	background-color: white;
+	padding: 3px;
+}
+
+#recipeTable {
+	border-collapse: collapse;
+}
+
+td.tile-name {
+	min-height: 100px;
+}
+
+.test-div {
+	display: flex;
+	position: relative;
+	bottom: 0;
+}
+
+.tile-rating {
+	flex: 1;
+	text-align: left;
+	position: relative;
+	display: inline;
+	align-content: flex-start;
+	vertical-align: bottom;
+}
+
+.tile-ingredients {
+	flex: 1;	
+	text-align: right;
+	position: relative;
+	display: inline;
+	justify-content: flex-end;
+	vertical-align: bottom;
+}
+
+.title-shaded {
+	position: relative;
+	vertical-align: bottom;
+}
+
+.detail-main-container {
+	display: flex;
+}
+
+.detail-image {
+	flex: 1;
+	display: inline;
+}
+
+.detailSummary {
+	flex: 3;
+	text-align: left;
+	padding: 15px;
+}
+
+.detailIngredients {
+	text-align: left;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+}
+
+li {
+	text-indent: 20px;
+
+}
+
+.detail-preparation {
+	text-align: left;
+}
+
+.detail-preparation ol {
+	list-style-type: decimal;
+}
